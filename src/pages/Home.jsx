@@ -44,7 +44,7 @@ const Home = () => {
   return (
       <Container sx={{ padding: '80px 0px'}}>
       <Typography  variant='h5'>
-       Treading Crypto Coins
+       Trending Crypto Coins
       </Typography>
         <Grid container spacing={2}>
            {coins.map((coin) => (
