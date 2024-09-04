@@ -7,7 +7,7 @@ export default defineConfig({
   server : {
     proxy : {
       "/api" : {
-        target : 'https://auth-backend-93eo.onrender.com',
+        target : 'https://authenticationeskills.vercel.app',
         changeOrigin : true,
         secure : false,
       },
