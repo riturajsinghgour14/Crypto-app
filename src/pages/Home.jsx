@@ -15,7 +15,6 @@ const Home = () => {
     if (!user){
       navigate('/login');
     }
-  
     dispatch(fetchTrending());
    },[user]);
    if(isLoading){

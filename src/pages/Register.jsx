@@ -9,7 +9,7 @@ const Register = () => {
     
   const navigate = useNavigate();
 
-  const dispatch = useDispatch();
+   const dispatch = useDispatch();
   
   const [formData , setFormData] = useState({
     name : "",
